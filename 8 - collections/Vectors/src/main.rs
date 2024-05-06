@@ -33,4 +33,18 @@ fn main() {
     for i in &v {
         println!("{}", i)
     }
-}
+
+    // You can also iterate over and edit a vec if it's mutable
+    // Just remember to dereference whatever value you're using.
+
+    let mut vector = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    for i in &mut vector {
+        *i = *i * 10;     // same as doing *i *= 10;
+        println!("{i}");
+    }
+
+    // if you for whatever reason need to store multiple values of different types in a single vector,
+    // You can map all the different types to an enum, and then make a vector of that enum.
+
+} // <-- reminder, vector still behaves normally, and will go out of scope and become unuseable here. 
