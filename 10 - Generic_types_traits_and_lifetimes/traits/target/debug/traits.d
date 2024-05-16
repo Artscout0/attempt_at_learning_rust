@@ -1,0 +1,1 @@
+C:\Users\Tomass\Desktop\Side\ Projects\Rust\10\ -\ Generic_types_traits_and_lifetimes\traits\target\debug\traits.exe: C:\Users\Tomass\Desktop\Side\ Projects\Rust\10\ -\ Generic_types_traits_and_lifetimes\traits\src\main.rs
