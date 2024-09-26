@@ -48,6 +48,7 @@ pub fn run(config: Config)  -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
+// For each line in the contents, check if it contains the exact query
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     let mut results: Vec<&str> = Vec::new();
     
@@ -60,6 +61,7 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     results
 }
 
+// For each line in the contents, check if it contains the query, ignoring the case
 pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     let mut results: Vec<&str> = Vec::new();
     

@@ -1,1 +1,0 @@
-C:\Users\Tomass\Desktop\Side\ Projects\Rust\12\ -\ miniproject\minigrep\target\debug\minigrep.exe: C:\Users\Tomass\Desktop\Side\ Projects\Rust\12\ -\ miniproject\minigrep\src\lib.rs C:\Users\Tomass\Desktop\Side\ Projects\Rust\12\ -\ miniproject\minigrep\src\main.rs
