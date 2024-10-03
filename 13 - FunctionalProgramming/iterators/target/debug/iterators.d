@@ -1,0 +1,1 @@
+C:\Users\Tomass\Desktop\Side\ Projects\Rust\13\ -\ FunctionalProgramming\iterators\target\debug\iterators.exe: C:\Users\Tomass\Desktop\Side\ Projects\Rust\13\ -\ FunctionalProgramming\iterators\src\main.rs

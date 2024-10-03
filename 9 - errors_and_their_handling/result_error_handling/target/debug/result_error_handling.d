@@ -1,0 +1,1 @@
+C:\Users\Tomass\Desktop\Side\ Projects\Rust\9\ -\ errors_and_their_handling\result_error_handling\target\debug\result_error_handling.exe: C:\Users\Tomass\Desktop\Side\ Projects\Rust\9\ -\ errors_and_their_handling\result_error_handling\src\main.rs
