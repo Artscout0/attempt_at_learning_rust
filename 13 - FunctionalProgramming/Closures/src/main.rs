@@ -1,4 +1,3 @@
-
 #[derive(Debug, PartialEq, Copy, Clone)]
 enum ShirtColor {
     Red,
@@ -11,7 +10,8 @@ struct Inventory {
 
 impl Inventory {
     fn giveaway(&self, user_preference: Option<ShirtColor>) -> ShirtColor {
-        user_preference.unwrap_or_else(|| self.most_stocked())    
+        user_preference.unwrap_or_else(|| self.most_stocked())    // <- this is where the closure is.
+                                                                  // A close is basically an anonymous function from something like C# or python.
     }
 
     fn most_stocked(&self, ) -> ShirtColor {
