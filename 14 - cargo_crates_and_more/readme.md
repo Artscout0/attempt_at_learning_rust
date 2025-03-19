@@ -83,7 +83,7 @@ Also, you can document from inside if you use `//!` instead of `///`.  This is u
 
 ### public api concerns
 
-If you've used PHP with cargo, you've likely ended up with something like `use devname\modulename\class\some_other_stupid_thing`.
+If you've used PHP with composer, you've likely ended up with something like `use devname\modulename\class\some_other_stupid_thing`.
 
 In rust, you can export a public function with `pub use`.
 
